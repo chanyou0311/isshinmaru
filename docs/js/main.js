@@ -69,7 +69,8 @@
 
 	// Parallax Background
 	$.stellar({
-		responsive: true
+		responsive: true,
+    horizontalScrolling:false,
 	});
 
 	// CountTo
