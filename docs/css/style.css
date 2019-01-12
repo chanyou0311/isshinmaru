@@ -1211,3 +1211,7 @@ textarea.input {
 .sympathist-btn {
   margin-top: 42px;
 }
+
+.contact-social>a {
+  margin: 0;
+}
