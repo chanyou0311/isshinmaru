@@ -1074,11 +1074,11 @@ textarea.input {
   }
 }
 
-@media only screen and (max-width: 480px) {
-  [class*='col-xs'] {
-    width: 100%;
-  }
-}
+/* @media only screen and (max-width: 480px) { */
+/*   [class*='col-xs'] { */
+/*     width: 100%; */
+/*   } */
+/* } */
 
 .video {
   position:relative;
@@ -1093,3 +1093,118 @@ textarea.input {
   width:100%;
   height:100%;
 }
+
+#main {
+  margin-top: 30px;
+}
+
+/*=========================================================
+	SUPPORTERS
+===========================================================*/
+
+#supporters {
+  background-color: #F9F9FA;
+}
+
+.supporter {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.supporter:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.supporter:hover:after {
+  opacity: 0.8;
+}
+
+.supporter .supporter-img>img {
+  width: 100%
+}
+
+.supporter .supporter-body {
+  /* position: absolute; */
+  bottom: 60px;
+  left: 0;
+  right: 0;
+}
+
+.supporter .supporter-content {
+  position: relative;
+  padding: 10px;
+  background: #94253D;
+  text-align: right;
+  z-index: 20;
+}
+
+.supporter .supporter-content>h3 {
+  color: #FFF;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.supporter .supporter-content>h3 {
+  color: #FFF;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.supporter .supporter-content>h2 {
+  color: #FFF;
+}
+
+.supporter .supporter-content>span {
+  color: #fff;
+}
+
+.supporter .supporter-social {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  z-index: 5;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.supporter .supporter-social>a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFF;
+  background: #94253D;
+  z-index: 15;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity;
+}
+
+.supporter .supporter-social a+a {
+  margin-left: -4px;
+  border-left: 1px solid #f8f8ff33;
+}
+
+.supporter .supporter-social a:hover {
+  opacity: 0.8;
+}
+
+.supporter:hover .supporter-social {
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
