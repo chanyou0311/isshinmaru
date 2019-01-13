@@ -1222,9 +1222,22 @@ h4.sponsor {
 }
 
 .sympathist-btn {
-  margin-top: 42px;
+  margin-top: 10px;
+  margin-bottom: 42px;
 }
 
 .contact-social>a {
   margin: 0;
+}
+
+#object {
+  display: block;
+  padding-top: 120px;
+  margin-top: -120px;
+}
+
+#money {
+  display: block;
+  padding-top: 120px;
+  margin-top: -120px;
 }
