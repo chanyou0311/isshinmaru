@@ -513,7 +513,7 @@ textarea.input {
 
 .speaker .speaker-content {
   position: relative;
-  padding: 30px;
+  padding: 15px;
   background: #94253D;
   text-align: right;
   z-index: 20;
@@ -523,8 +523,14 @@ textarea.input {
   color: #FFF;
 }
 
+.speaker .speaker-content>p {
+  color: #fff;
+  margin: 0;
+}
+
 .speaker .speaker-content>span {
   color: #fff;
+  font-size: 0.75em;
 }
 
 .speaker .speaker-social {
